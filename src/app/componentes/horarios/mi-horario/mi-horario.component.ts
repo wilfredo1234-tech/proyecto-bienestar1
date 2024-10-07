@@ -12,10 +12,28 @@ import { SessionService } from 'src/app/servicios/session.service';
 
 })
 export class MiHorarioComponent {
+<<<<<<< HEAD
 
   public actividades: Actividad[] = this.acti.actividades;
 
   public usuario: Usuario = new Usuario(0, "", "", "", "", "", "", "", "", "");
+=======
+isLoading: any;
+eliminar(arg0: number) {
+throw new Error('Method not implemented.');
+}
+cancelar(arg0: number) {
+throw new Error('Method not implemented.');
+}
+cancelarInscripcion(arg0: number) {
+throw new Error('Method not implemented.');
+}
+
+
+  public actividades: Actividad[] = this.acti.actividades;
+
+  public usuario: Usuario = new Usuario(0, "", "", "", "", "", "", "", "", "",0);
+>>>>>>> a42c23152b9800e9d1e69d05c16af714fa390fa9
 
   public MisIncripciones: Inscripcion[] = this.inscripcion.inscripcion;
 
@@ -47,6 +65,7 @@ ngOnInit() {
       }
     );
   }
+<<<<<<< HEAD
    // Función para cambiar el estado a "En proceso de eliminación"
    marcarEnProceso(id: number): void {
     const actividad = this.actividades.find(acti => acti.id === id);
@@ -55,3 +74,15 @@ ngOnInit() {
     }
   }
 }
+=======
+confirmarEliminar(inscripcionId: number): void {
+  const confirmacion = confirm('Esta inscripción estara en proceso');
+  if (confirmacion) {
+    this.cancelarInscripcion(inscripcionId);
+  }
+
+}
+}
+
+
+>>>>>>> a42c23152b9800e9d1e69d05c16af714fa390fa9

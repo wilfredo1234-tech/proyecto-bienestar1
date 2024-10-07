@@ -11,7 +11,11 @@ import { CoordinadorService } from 'src/app/servicios/coordinador.service';
 })
 
 export class CoordinadorComponent {
+<<<<<<< HEAD
   public coordinador: Coordinador = new Coordinador(0, "", "", "", "", "", "", "", "", "");
+=======
+  public coordinador: Coordinador = new Coordinador(0, "", "", "", "", "", "", "", "", "",0);
+>>>>>>> a42c23152b9800e9d1e69d05c16af714fa390fa9
   public coordinadores: Coordinador[] = this.coorser.coordiandores;
   public usuarios: Usuario[] = [];
 
@@ -57,7 +61,11 @@ export class CoordinadorComponent {
       (response) => {
         console.log('Coordinador agregado:', response);
         this.listarCoordinadores();
+<<<<<<< HEAD
         this.coordinador = new Coordinador(0, "", "", "", "", "", "", "", "", "");
+=======
+        this.coordinador = new Coordinador(0, "", "", "", "", "", "", "", "", "",0);
+>>>>>>> a42c23152b9800e9d1e69d05c16af714fa390fa9
       });
   }
 

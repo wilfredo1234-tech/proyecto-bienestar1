@@ -20,7 +20,11 @@ export class InstructorComponent implements OnInit {
   public instructores: Instructor[] = [];
   public usuarios: Usuario[] = [];
   public disciplinas: Disciplina[] = [];
+<<<<<<< HEAD
   public usuario: Usuario = new Usuario(0, "", "", "", "", "", "", "", "", "");
+=======
+  public usuario: Usuario = new Usuario(0, "", "", "", "", "", "", "", "", "",0);
+>>>>>>> a42c23152b9800e9d1e69d05c16af714fa390fa9
 
 
   constructor(private discser:DisciplinaService, private instser: InstructorService, private infcom: InformadorComponent, private sesSer: SessionService) {
@@ -47,7 +51,11 @@ export class InstructorComponent implements OnInit {
       (response) => {
         console.log('El instructor se elimino', response);
         this.listarUsuarios();
+<<<<<<< HEAD
         this.usuario = new Usuario(0, "", "", "", "", "", "", "", "", "");
+=======
+        this.usuario = new Usuario(0, "", "", "", "", "", "", "", "", "",0);
+>>>>>>> a42c23152b9800e9d1e69d05c16af714fa390fa9
       }
     )
   }

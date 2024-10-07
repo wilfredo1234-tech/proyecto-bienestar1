@@ -253,15 +253,50 @@
       "actividad_id": "4"
     },
     {
+<<<<<<< HEAD
       "id": 1,
       "tipoVinculacion": "Estudiante",
       "fechaInscripcion": "2024-10-07T17:39:09.197Z",
+=======
+      "id": "1",
+      "tipoVinculacion": "Estudiante",
+      "fechaInscripcion": "2024-08-29T20:29:31.946Z",
+      "usuario": "3",
+      "actividad_id": "2"
+    },
+    {
+      "id": "1",
+      "tipoVinculacion": "Estudiante",
+      "fechaInscripcion": "2024-09-02T20:49:37.971Z",
+      "usuario": "3",
+      "actividad_id": "5"
+    },
+    {
+      "id": "1",
+      "tipoVinculacion": "Estudiante",
+      "fechaInscripcion": "2024-09-02T20:50:31.675Z",
+      "usuario": "3",
+      "actividad_id": "4"
+    },
+    {
+      "id": "1",
+      "tipoVinculacion": "Estudiante",
+      "fechaInscripcion": "2024-09-04T19:34:25.973Z",
+      "usuario": "3",
+      "actividad_id": "1"
+    },
+    {
+      "id": "1",
+      "tipoVinculacion": "Estudiante",
+      "fechaInscripcion": "2024-09-04T19:52:24.984Z",
+>>>>>>> a42c23152b9800e9d1e69d05c16af714fa390fa9
       "usuario": "3",
       "actividad_id": "100"
     },
     {
       "id": 1,
       "tipoVinculacion": "Estudiante",
+<<<<<<< HEAD
       "fechaInscripcion": "2024-10-07T18:13:35.364Z",
       "usuario": "3",
       "actividad_id": "2",
@@ -274,6 +309,11 @@
       "usuario": "3",
       "actividad_id": "100",
       "dia": "lunes"
+=======
+      "fechaInscripcion": "2024-09-11T20:55:01.013Z",
+      "usuario": "3",
+      "actividad_id": "100"
+>>>>>>> a42c23152b9800e9d1e69d05c16af714fa390fa9
     }
   ],
   "instructor": [

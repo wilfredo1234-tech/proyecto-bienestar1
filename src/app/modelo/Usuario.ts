@@ -9,9 +9,16 @@ export class Usuario {
     password: String = "";
     tipo: String = "";//Para saber que tipo de usuario ingresa al sistema
     estado: String = "";
+<<<<<<< HEAD
 
     constructor(id: number, nom: String, ape: String, ident: String, ema: String, tel: String, log: String,
         pass: String, tip: String, est: String) {
+=======
+    hora: number = 0;
+
+    constructor(id: number, nom: String, ape: String, ident: String, ema: String, tel: String, log: String,
+        pass: String, tip: String, est: String, hor: number) {
+>>>>>>> a42c23152b9800e9d1e69d05c16af714fa390fa9
         this.id = id;
         this.nombre = nom;
         this.apellido = ape;
@@ -22,6 +29,10 @@ export class Usuario {
         this.password = pass;
         this.tipo = tip;
         this.estado = est;
+<<<<<<< HEAD
+=======
+        this.hora = hor;
+>>>>>>> a42c23152b9800e9d1e69d05c16af714fa390fa9
     }
 
     public informacion(): string {

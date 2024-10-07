@@ -15,7 +15,11 @@ export class HorarioDeportivoComponent {
   public actividades: Actividad[] = this.acti.actividades;
   public insc:Inscripcion | undefined;
   public a: Actividad | undefined;
+<<<<<<< HEAD
   public usuario: Usuario = new Usuario(0, "", "", "", "", "", "", "", "", "");
+=======
+  public usuario: Usuario = new Usuario(0, "", "", "", "", "", "", "", "", "",0);
+>>>>>>> a42c23152b9800e9d1e69d05c16af714fa390fa9
   
 
   constructor(private acti: ActividadService,private inscripcion: InscripcionService,private sesSer: SessionService) {
@@ -66,8 +70,12 @@ export class HorarioDeportivoComponent {
     console.log('click', this.a);
   
     if (this.a) {
+<<<<<<< HEAD
       this.insc = new Inscripcion(entero, "Estudiante", new Date(), this.usuario.id, idA, "lunes"); // Cambia "lunes" por el día correspondiente
 
+=======
+      this.insc = new Inscripcion(entero, "Estudiante", new Date(), this.usuario.id, idA);
+>>>>>>> a42c23152b9800e9d1e69d05c16af714fa390fa9
   
       this.inscripcion.createInscripcion(this.insc).subscribe(
         (response) => {

@@ -24,7 +24,11 @@ export class ListaInscripcionComponent {
 
   public incripcionesActividad: Inscripcion[] = [];
 
+<<<<<<< HEAD
   public usuario: Usuario = new Usuario(0, "", "", "", "", "", "", "", "", "");
+=======
+  public usuario: Usuario = new Usuario(0, "", "", "", "", "", "", "", "", "",0);
+>>>>>>> a42c23152b9800e9d1e69d05c16af714fa390fa9
   public insc: Inscripcion | undefined;
   public _usuario: Usuario[] = [];
   public _actividad: Actividad = new Actividad();

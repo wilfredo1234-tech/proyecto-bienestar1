@@ -13,7 +13,11 @@ import { SessionService } from '../servicios/session.service';
 export class PInicioComponent implements OnInit {
 
 
+<<<<<<< HEAD
   usuario: Usuario = new Usuario(0, "", "", "", "", "", "", "", "", "");
+=======
+  usuario: Usuario = new Usuario(0, "", "", "", "", "", "", "", "", "",0);
+>>>>>>> a42c23152b9800e9d1e69d05c16af714fa390fa9
   usuarios: Usuario[] = [];
   constructor(private ususer: UsuarioService, private router: Router,private sesSer: SessionService) {
 
@@ -74,6 +78,7 @@ export class PInicioComponent implements OnInit {
   ngOnInit(): void {
   
   }
+<<<<<<< HEAD
   passwordFieldType: string = 'password';
   passwordIcon: string = 'fas fa-eye';
 
@@ -88,3 +93,6 @@ export class PInicioComponent implements OnInit {
     }
   }
 }
+=======
+}
+>>>>>>> a42c23152b9800e9d1e69d05c16af714fa390fa9

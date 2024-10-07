@@ -16,7 +16,11 @@ export class CronogramaActividadesInstructorComponent {
 
   public MisIncripciones: Inscripcion[] = this.inscripcion.inscripcion;
   public actividades: Actividad[] = this.acti.actividades;
+<<<<<<< HEAD
   public usuario: Usuario = new Usuario(0, "", "", "", "", "", "", "", "", "");
+=======
+  public usuario: Usuario = new Usuario(0, "", "", "", "", "", "", "", "", "",0);
+>>>>>>> a42c23152b9800e9d1e69d05c16af714fa390fa9
   constructor(private inscripcion: InscripcionService,private sesSer: SessionService,private acti: ActividadService) {
       
   }

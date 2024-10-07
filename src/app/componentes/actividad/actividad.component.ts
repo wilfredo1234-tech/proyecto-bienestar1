@@ -43,7 +43,11 @@ export class ActividadComponent implements OnInit {
   public actividades: Actividad[] = this.acti.actividades;
 
   public instructor: Instructor = new Instructor("", new Disciplina(0, "", "",""), 0);
+<<<<<<< HEAD
   public usuario: Usuario = new Usuario(0, "", "", "", "", "", "", "", "", "");
+=======
+  public usuario: Usuario = new Usuario(0, "", "", "", "", "", "", "", "", "",0);
+>>>>>>> a42c23152b9800e9d1e69d05c16af714fa390fa9
   public tipo: TipoActividad = new TipoActividad(0,"", "", "");
   public escenario: Escenario = new Escenario(0, "", "", "", "", "","");
   public escenarios: Escenario[] = [];

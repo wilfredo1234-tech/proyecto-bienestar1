@@ -34,6 +34,12 @@ import { GUIInstructorComponent } from './guiinstructor/guiinstructor.component'
 import { IPrincipalComponent } from './iprincipal/iprincipal.component';
 import { PInicioComponent } from './pinicio/pinicio.component';
 import { InformadorComponent } from './utilidades/informador/informador.component';
+<<<<<<< HEAD
+=======
+import { GestionJobsComponent } from './gestion-jobs/gestion-jobs.component';
+import { MatTableModule } from '@angular/material/table';
+import { DesvinculacionComponent } from './desvinculacion/desvinculacion.component';
+>>>>>>> a42c23152b9800e9d1e69d05c16af714fa390fa9
 
 
 @NgModule({
@@ -64,7 +70,13 @@ import { InformadorComponent } from './utilidades/informador/informador.componen
     HorarioIDeportivoComponent,
     MiHorarioComponent,
     ListaInscripcionComponent,
+<<<<<<< HEAD
     CronogramaActividadesInstructorComponent
+=======
+    CronogramaActividadesInstructorComponent,
+    DesvinculacionComponent,
+    
+>>>>>>> a42c23152b9800e9d1e69d05c16af714fa390fa9
   ],
   imports: [
     BrowserModule,
